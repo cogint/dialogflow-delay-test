@@ -1,0 +1,11 @@
+[
+  {
+    "name":"WelcomeEvent",
+    "query":{
+      "event":{
+        "name":"Welcome",
+        "languageCode":"en-US"
+      }
+    }
+  }
+]
