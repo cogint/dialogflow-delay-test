@@ -81,16 +81,16 @@ The `--runs` option indicates the number of times the script should repeat.
 
 Run the following 10 times:
 1. Fire the `WelcomeEvent`
-2. wait 15 seconds
+2. wait `15` seconds
 3. Send the `Buy` query 
-4. Wait 600 seconds
-5. Start a new session
+4. Wait `600` seconds
+5. Start a new session: `.`
 6. Fire the `WelcomeEvent`
-7. Wait 10 seconds
+7. Wait `10` seconds
 7. Send the `Buy` query
-8. Wait 14 seconds
+8. Wait `14` seconds
 9. Send the `Sell` query
-19. Send Wait 15 seconds
+19. Send Wait `15` seconds
 
 
 `node dfdelay.js --project my-agent-projectid  --queries custom_queries.json --runs 10 --commands WelcomeEvent 15 Buy 600 . WelcomeEvent 10 Buy 14 Sell 15`

@@ -99,7 +99,7 @@ async function start(runs, sessions) {
                 console.log(`${finish}: Name: ${query.name} | Total: ${duration} ms | Webhook ${webhookTimer} ms`);
 
                 let results = `${sessionId}, ${start}, ${query.name}, ${duration}, ${webhookTimer}\n`;
-                fs.appendFileSync(argv.results || 'results.csv', results);
+                fs.appendFileSync(argv.output || 'results.csv', results);
                 //console.log(query);
                 newSession = false;
 
